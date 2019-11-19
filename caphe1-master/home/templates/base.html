@@ -187,7 +187,8 @@
     <script src="{% static 'js/jquery.prettyPhoto.js' %}"></script>
     <script src="{% static 'js/main.js' %}"></script>
     <script>
-    function addCart(cart_id){
+    function addCart(id){
+    		alert(id);
             num = $("#number").val();
             if(!num){
                 num = 1;
